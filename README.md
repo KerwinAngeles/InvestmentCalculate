@@ -1,12 +1,26 @@
-# React + Vite
+# 📈 Investment Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una calculadora interactiva de inversiones desarrollada con **React.js** que permite a los usuarios proyectar el crecimiento de su inversión anual, calcular el interés compuesto, y visualizar los resultados año por año.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ingreso de datos personalizados:
+  - Inversión inicial
+  - Inversión anual
+  - Porcentaje de retorno esperado
+  - Duración de la inversión
+- Cálculo del crecimiento de la inversión a lo largo de los años
+- Visualización detallada de:
+  - Intereses ganados por año
+  - Valor acumulado al final de cada año
+  - Capital invertido total
+  - Interés total ganado
+- Interfaz responsiva y moderna
 
-## Expanding the ESLint configuration
+## 🛠 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- JavaScript
+- Vite (opcional si lo estás usando como bundler)
+- Formateo con `Intl.NumberFormat`
